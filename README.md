@@ -1,5 +1,7 @@
 # CS411 Spring 2027 · Project 1: Multithreaded Rust Raytracer
 
+Starter template: https://github.com/cwillpinto/cs411-spring2027-project01-multi-threaded-rust-raytracer
+
 The supplied sequential raytracer and fixed scene are complete. Implement the TODOs in `src/renderer.rs` and `src/worker.rs` to render exclusive row bands concurrently, then assemble them in image order. Read the included project handout before coding.
 
 ```sh
@@ -18,7 +20,7 @@ If Blackboard links a template repository, choose **Use this template**, create 
 For a direct clone, first create an empty repository under your account. Replace the placeholders below with the starter link supplied in Blackboard and your own empty repository URL:
 
 ```sh
-git clone <instructor-starter-url>
+git clone https://github.com/cwillpinto/cs411-spring2027-project01-multi-threaded-rust-raytracer
 cd <cloned-directory>
 git remote rename origin upstream
 git remote add origin <your-empty-repository-url>

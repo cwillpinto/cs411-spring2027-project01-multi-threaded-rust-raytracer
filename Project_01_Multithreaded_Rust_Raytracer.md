@@ -5,6 +5,8 @@
 **Due:** February 14, 2027  
 **Value:** 100 points
 
+**Starter repository:** [Open the Spring 2027 starter](https://github.com/cwillpinto/cs411-spring2027-project01-multi-threaded-rust-raytracer)
+
 ## Purpose
 
 Turn the sequential renderer into a deterministic multi-threaded Rust application. Share immutable scene data, assign each output row to one worker, and prove that the parallel image matches the sequential reference before reporting speedup.
